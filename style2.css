@@ -3,7 +3,7 @@
   border:0px;
   margin:0px;
 }
-.main{
+.footer .main{
   display: flex;
   background-image: url(./Resources/blue1.jpeg);
   background-size: cover;
@@ -14,29 +14,29 @@
   margin: 10px;
   border: 10px solid navy ;
 }
-.contact{
+.footer .contact{
   color: aliceblue;
   display: block;
   border-radius: 20px;
 }
-.people{
+.footer .people{
   color:aliceblue;
   display:flex;
   gap: 20px;
   justify-content: space-evenly;
 }
-.contactmain{
+.footer .contactmain{
   padding:0px 0px 20px 0px;
 }
-.query{
+.footer .query{
   text-align: center;
   color: whitesmoke;
 }
-form{
+.footer form{
   padding-top: 20px;
 }
 
-img{
+.footer img{
   height: 100px;
   width:100px;
   border-radius: 50%;
@@ -45,20 +45,20 @@ img{
   margin: 0px 0px 20px 0px;
   transition: 0.5s;
 }
-img:hover{
+.footer img:hover{
   transform:scale(1.3);
 }
-a{
+.footer a{
   text-decoration: none;
 }
 
-input{
+.footer input{
   height: 30px;
   width:100%;
   border-radius: 20px;
   align:center;
 }
-textarea{
+.footer textarea{
   border-radius: 20px;
   border: 2px dashed navy;
   width:100%;

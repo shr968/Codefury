@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: lightgreen;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Set a border-radius for all images */
+  .image img {
+    max-width: 100%;
+    border-radius: 50%; /* Set a rounded border for all images */
+  }
+  
+  .name_job {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .goback {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .goback a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .goback a:hover {
+    color: #007BFF;
+  }
+  
